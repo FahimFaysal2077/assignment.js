@@ -16,8 +16,8 @@ function kilometerToMeter(kilometer) {
   var meter = kilometer * 1000;
   return meter;
 }
-var result = kilometerToMeter(160);
-console.log(result);
+var count = kilometerToMeter(160);
+console.log(count);
 
 
 
@@ -68,15 +68,15 @@ function hotelCost(day) {
     taka = firstPart + secondPart;
   }
   else {
-    var firstPart = 10 * 50;
-    var secondPart = 10 * 100;
+    var firstPart = 10 * 100;
+    var secondPart = 10 * 80;
     var remaining = day - 20;
     var thirdPart = remaining * 50;
     taka = firstPart + secondPart + thirdPart;
   }
   return taka;
 }
-var count = hotelCost(71);
+var count = hotelCost(21);
 console.log(count);
 
 
